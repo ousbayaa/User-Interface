@@ -69,6 +69,10 @@ header {
   	border: 3px solid green;
 }
 
+section, header {
+	margin: 0% 20% 0% 20%;
+}
+
 nav {
 	display: inline-block;
 	border: 1px solid red;
@@ -78,15 +82,40 @@ nav {
 
 .logo {
 	border: 1px dotted red;
-	margin-left: 7%;
-	
+	margin-left: 2%;
 }
 
 nav a {
 	padding: 0px 25px 0px;
 	
 }
+nav a:first-child {
+	padding-left: 0;
+}
 
 nav img {
 	position: relative;
+}
+
+h1 {
+	font-size: 65px;
+	text-align: center;
+}
+
+.centered {
+	text-align: center;
+}
+
+#content-innovation {
+	display: inline-block;
+	width: 50%;
+}
+
+#content-img {
+	display: inline-block;
+}
+
+#content-img img {
+	width: 85%;
+	height: 85%;
 }
