@@ -134,3 +134,40 @@ h1 {
 #header-content {
 	margin-top: 50px;
 }
+
+.linebreak {
+	margin-top: 35px;
+}
+
+.textsections {
+	margin-top: 40px;
+}
+
+.content {
+	display: inline-block;
+}
+
+#content-features {
+	width: 50%;
+}
+
+#content-about {
+	width: 49%;
+}
+
+#content-midpage {
+	margin-top: 35px;
+	margin-bottom: 35px;
+}
+
+#content-services {
+	width: 33%;
+}
+
+#content-product {
+	width: 33%;
+}
+
+#content-vision {
+	width: 32%
+}
