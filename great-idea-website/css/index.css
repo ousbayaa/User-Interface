@@ -171,3 +171,21 @@ h1 {
 #content-vision {
 	width: 32%
 }
+
+#contact-section {
+	margin-top: 35px;
+	margin-bottom: 35px;
+}
+
+#contact-section div {
+	width: 25%;
+}
+
+#contact-section div p {
+	padding-bottom: 25px;
+}
+
+#footer {
+	text-align: center;
+	padding-bottom: 100px;
+}
