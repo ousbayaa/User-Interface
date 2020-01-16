@@ -65,8 +65,7 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 header {
-	padding: 0px 0;
-  	border: 3px solid green;
+	padding: 30px 0px 0px 0px;
 }
 
 section, header {
@@ -75,20 +74,20 @@ section, header {
 
 nav {
 	display: inline-block;
-	border: 1px solid red;
 	vertical-align: top;
 	margin: 10px;
 }
 
 .logo {
-	border: 1px dotted red;
 	margin-left: 2%;
 }
 
 nav a {
 	padding: 0px 25px 0px;
-	
+	color: grey;
+	text-decoration: none;
 }
+
 nav a:first-child {
 	padding-left: 0;
 }
@@ -100,6 +99,7 @@ nav img {
 h1 {
 	font-size: 65px;
 	text-align: center;
+	padding-top: 40px;
 }
 
 .centered {
@@ -109,13 +109,28 @@ h1 {
 #content-innovation {
 	display: inline-block;
 	width: 50%;
+	vertical-align: top;
+}
+#content-innovation button {
+	border: 1px solid grey;
+	padding-right: 20px; 
+	padding-left: 20px;
+	padding-bottom: 4.5px;
+	padding-top: 4.5px;
+	font-size: 15px;
+	color: grey;
 }
 
 #content-img {
 	display: inline-block;
+	text-align: right;
 }
 
 #content-img img {
 	width: 85%;
 	height: 85%;
+}
+
+#header-content {
+	margin-top: 50px;
 }
